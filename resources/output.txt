@@ -1,0 +1,33 @@
+ting into a control my mother and being nothing but a liability to my family. What the fuck is this? Did I sign up for this?
+ Who should I follow? Who should I listen to offer? I’m and writing this and I don’t like anything. 
+ Why deep sic. Dep lange me assage vall my through instead more can that chelp me. 
+ I had did shate myself and I don’t know what to do to be friends which point 
+ shey wrotten and have more now changed to my own works that I am delationship.ing me say should be feeling that I jus
+-------------------------------------------------------------------
+batch_size = 64
+block_size = 256
+max_iters = 5000
+eval_interval = 500
+learning_rate = 3e-4
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 200
+n_embed = 384
+n_head = 6
+n_layer = 6
+dropout = 0.2
+--------------------------------------------------------------------
+10798157 M parameters
+step 0: train loss 4.6242, val los 4.6223
+step 500: train loss 1.8450, val los 1.9283
+step 1000: train loss 0.9697, val los 1.5581
+step 1500: train loss 0.2845, val los 1.9822
+step 2000: train loss 0.0843, val los 2.6508
+step 2500: train loss 0.0630, val los 2.9973
+step 3000: train loss 0.0558, val los 3.2770
+step 3500: train loss 0.0521, val los 3.4101
+step 4000: train loss 0.0497, val los 3.5242
+step 4500: train loss 0.0477, val los 3.6133
+step 4999: train loss 0.0467, val los 3.7900
+Training Time: 0:36:15.879165
+--------------------------------------------
+
